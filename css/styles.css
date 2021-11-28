@@ -10,6 +10,7 @@
   --footer-logo-color: #ffffff;
   --filter-btn-color: #212121;
   --filter-btn-bgr: #f5f4fa;
+  --icons-color: #afb1b8;
   --time-transit: 250ms;
   --distribution-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -419,7 +420,7 @@ body {
   width: 100%;
 
   border-radius: 50%;
-  color: #afb1b8;
+  color: var(--icons-color);
 
   transition: background-color var(--time-transit) var(--distribution-function);
 }
@@ -453,10 +454,10 @@ body {
   height: 92px;
   width: 170px;
 
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--icons-color);
   box-sizing: border-box;
   border-radius: 4px;
-  fill: #afb1b8;
+  fill: var(--icons-color);
 
   transition: fill var(--time-transit) var(--distribution-function),
     border-color var(--time-transit) var(--distribution-function);
@@ -467,8 +468,6 @@ body {
 }
 
 .client-icon {
-  /* height: 60px;
-  width: 106px; */
   margin: auto auto;
 }
 
